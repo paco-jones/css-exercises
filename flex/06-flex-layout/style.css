@@ -25,3 +25,49 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+.logo, .content, .input {
+  display: flex;
+  justify-content: center;
+}
+.left-links {
+  display: flex;
+  justify-content: left;
+  display: inline-block;
+}
+.right-links {
+  display: flex;
+  justify-content: right;
+  display: inline-block;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.footer {
+  position:absolute;
+    width:100%;
+    bottom:0px;
+}
+ul {
+  list-style: none
+}
+
+a:link {
+  text-decoration: none;
+  display: inline-block;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+li {
+  padding:5px 10px;
+  display: inline-block;
+}
+header {
+  display: inline-block;
+  padding-top: 20px;
+}
